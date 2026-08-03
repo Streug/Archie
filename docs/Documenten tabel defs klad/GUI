@@ -1,0 +1,27 @@
+class UserFormWindow(BaseWindow):
+    """A window subclass that adds a user input form."""
+
+    def __init__(self, title="User Form", size="400x250"):
+        super().__init__(title, size)
+
+    def create_widgets(self):
+        """Override the method to add custom widgets."""
+        # Create labels and entry fields
+        name_label = ttk.Label(self.main_frame, text="Name:")
+        name_label.grid(row=0, column=0, padx=5, pady=5, sticky="w")
+        self.name_entry = ttk.Entry(self.main_frame, width=30)
+        self.name_entry.grid(row=0, column=1, padx=5, pady=5)
+        age_label = ttk.Label(self.main_frame, text="Age:")
+        age_label.grid(row=1, column=0, padx=5, pady=5, sticky="w")
+        self.age_entry = ttk.Entry(self.main_frame, width=30)
+        self.age_entry.grid(row=1, column=1, padx=5, pady=5)  # Submit button
+        submit_button = ttk.Button(
+            self.main_frame, text="Submit", command=self.submit_form
+        )
+        submit_button.grid(row=2, column=1, pady=10, sticky="e")
+
+    def submit_form(self):
+        """Handles the submit action."""
+        name = self.name_entry.get()
+        age = self.age_entry.get()
+        print(f"Submitted Name: {name}, Age: {age}")

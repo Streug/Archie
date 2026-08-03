@@ -1,0 +1,133 @@
+Module Aanmelden
+Module Raadplegen
+Module Archiveren
+Module Beheren
+Module Noteren
+Module Afmelden
+Module Archief Register
+Module Archief Decor
+Module Log
+Module Archief Magazijn
+ git remote add Archie https://github.com/Streug/Archie
+
+git ls-remote https://github.com/Streug/Photos
+
+basename $(git remote https://github.com/Streug/Photos origin) .gitmv project Photos  # macOS/Linux
+ren project Photos  # Windows (Command Prompt)
+
+
+I have a folder "Project Fotos". In that folder reside the folders ".git", ".vscode", "venv_Photos", "WS_Photos" (the last is the working  space for my project Fotos).
+WS_Photos consists of the folders "code", "docs", "test", "resultaten", and "overig".
+Now my question. The git repository I use has the name "project" - obtained via basename $(git rev-parse --show-toplevel) - and I want to change the repostory name into Photos". How can I do this with Bash
+
+I did with Bash:
+
+	$ basename $(git rev-parse --show-toplevel)
+	Fotos
+
+	thapm@BOOK-AA04GHSOBS MINGW64 ~/documents/fotos (main)
+	$ git branch -M main
+
+	thapm@BOOK-AA04GHSOBS MINGW64 ~/documents/fotos (main)
+	$ git push -u Fotos main
+	fatal: 'Fotos' does not appear to be a git repository
+	fatal: Could not read from remote repository.
+What I am doing wrong
+
+
+
+
+
+
+Photos is a Repository for code build to scan my Photos on, u.o. Date and Postion, and store the information in an Archive
+
+
+When I du a Pull to be sure what's on the remote repository is als on the local repository.
+I get:
+	$ git pull --progress Fotos main
+	From https://github.com/Streug/Fotos
+	 * branch            main       -> FETCH_HEAD
+	fatal: refusing to merge unrelated histories
+what does that mean / is that caused by
+
+git fetch --all
+git reset --hard Fotos/main
+
+
+
+
+I did
+$ git pull Archie main
+got
+	remote: Enumerating objects: 42, done.
+	remote: Counting objects: 100% (42/42), done.
+	remote: Compressing objects: 100% (37/37), done.
+	remote: Total 42 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+	Unpacking objects: 100% (42/42), 6.33 MiB | 5.88 MiB/s, done.
+	From https://github.com/Streug/Archie
+	 * branch            main       -> FETCH_HEAD
+	 * [new branch]      main       -> Archie/main
+	fatal: refusing to merge unrelated histories
+
+thapm@BOOK-AA04GHSOBS MINGW64 ~/Documents/Archie/WS_Archie/code (main)
+$  git push -u Archie  main
+To https://github.com/Streug/Archie
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Streug/Archie'
+hint: Updates were rejected because the tip of your current branch is behind
+
+
+git remote add Archie https://github.com/Streug/Archie .git
+
+
+
+
+It would be nice if all the documents you receive and/or provide can be stored in a simple and easy way so you can quickly find them back later, wherever you are. An archive system for a Household. Paper documents have to be scanned for this. It should also be possible to store E-mail and Whattsapp attachments easily. Furthermore, some organizations, e.g. an energy supplier, telephone company, hold a customer record. It must be simple to retrieve documents from these customer records and store them in the household Archive.
+
+This is where Archie is all about.
+
+Archie to store and retrieve Documents of a Familiy It would be nice if all the Documents a Family receives and/or provides can be stored in a simple and easy way, so you can quickly find them back later, wherever you are. An archive system for a Family, a Household. Paper documents have to be scanned first of course for this. This is where Archie is all about.
+
+
+
+
+
+
+
+
+
+
+
+
+echo "WS_Fotos/docs/" > .gitignore
+echo "WS_Fotos/resultaat/" >>.gitignore
+echo "WS_Fotos/test/" >> .gitignore
+echo "WS_Fotos/overig/" >> .gitignore
+
+
+echo "/*" > .gitignore
+echo "!code/" >> .gitignore
+
+
+black-formatter.args			[]
+black-formatter.cwd			[]
+black-formatter.path			[]
+black-formatter.interpreter		[]
+black-formatter.importStrategy		useBundled
+black-formatter.showNotification	off
+black-formatter.serverTransport		stdio
+
+
+The EXIF metadata of a JPG image contains: 'image_width': 1920', 'image_height': 1080'. Does this mean, among others, orientation is: Landscape?
+(And 'image_width': 1080', 'image_height': 1920' then means portrait
+
+
+git remote add origin https://github.com/Streug/Archie.git
+
+
+
+
+cd path/to/your/project
+git init
+
+

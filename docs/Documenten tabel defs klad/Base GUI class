@@ -1,0 +1,52 @@
+"""The Base GUI Class."""
+
+import tkinter as tk
+from tkinter import ttk
+
+
+class BaseWindow(tk.Tk):
+    """A standard base class for creating a windows."""
+
+    def __init__(self, title="Archie", size="400x300"):
+        """Method to get all the tkInter stuff."""
+        super().__init__()
+
+        # Window properties
+        self.title(title)
+        self.geometry(size)
+        self.resizable(True, True)  # Prevent resizing
+
+        # Create main frame
+        self.main_frame = ttk.Frame(self, padding=10)  # Padding for aesthetics
+        self.main_frame.pack(fill="both", expand=True)  # Fill the window
+
+        # Call method to create widgets
+        self.create_widgets()
+
+    def create_widgets(self):
+        """Method to be overridden by subclasses to add widgets."""
+        label = ttk.Label(self.main_frame, text="Welkom", font=("Arial", 12))
+        label.pack(pady=10)
+
+        button = ttk.Button(self.main_frame, text="Close", command=self.quit)
+        button.pack(pady=5)
+
+
+### **How to Use This Class**
+# - You can **inherit** from `BaseWindow` to create specific windows.
+# - Override `create_widgets()` in subclasses to define custom UI elements.
+# - This ensures **consistent styling** and **reusability** across all windows.
+
+# Example usage
+if __name__ == "__main__":
+    app = UserFormWindow(title="User Registration", size="400x250")
+    app.mainloop()
+
+
+### **Key Features of this Subclass**
+# ✔ **Overrides `create_widgets()`** to add form fields (Name & Age).
+# ✔ **Uses `grid()` for layout management** instead of `pack()` for precise placement.
+# ✔ **Defines an event handler (`submit_form`)** to process user input.
+# ✔ **Keeps the window structure consistent** by reusing the `BaseWindow`.
+#
+# Now, every new window can inherit from `BaseWindow` while customizing its own widgets and behavior!

@@ -1,0 +1,6 @@
+Toevoegen = {
+"DatumtijdBegin" :"",
+"GebruikerId" :"",
+"DatumTijdOps" :"",
+"LijstDocumentweergave" :""
+}

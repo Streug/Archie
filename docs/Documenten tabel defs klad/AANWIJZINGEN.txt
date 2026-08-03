@@ -1,0 +1,10 @@
+AenB	Archiveren en Beheren
+Decor
+IenL	Inzienen
+Log
+Magazijn	Archief magazijn
+Niks		een stub
+Noteren		Logboek
+Patronen	Klassen en Datastructuren
+Register	Archief register
+VenR		Vinden en Raadplegen

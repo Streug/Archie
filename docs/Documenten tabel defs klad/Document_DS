@@ -1,0 +1,23 @@
+Document = {
+"Documentnaam": "",
+"Kringlidnaam": "",
+"Kringlidtypering": "",
+"Contactnaam": "",
+"Contacttypering": "",
+"Onderwerpnaam": "",
+"Documenttype": "",
+"Activiteit": "",
+"Treftekst": "",
+"Opslagdatum": "",
+"Documentdatum": "",
+"Omschrijving": "",
+"Vindplaats": "",
+"DekkingInTijd": "",
+"DekkingInOnderwerp": "",
+"Taal": "",
+"Waardering": "",
+"BewaartermijnEind": "",
+"BeperkingGebruik": "",
+"Archiever": "",
+"VerwijderIndicator": ""
+}

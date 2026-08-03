@@ -1,0 +1,36 @@
+A  FS Scherm Aanmelden
+A  FS Scherm WachtwoordVergeten
+A  FS Scherm WachtwoordNieuw
+R  FC Scherm Vind
+R  LO Scherm ArchiefZien
+R  LO Scherm DocumentenZien
+R  LO Scherm GroepenZien
+R  SS Scherm DocumentInzien
+R  LO Scherm DossierInzien
+R  LO Scherm ReeksInzien
+R  LO Scherm BoekenZien
+R  LO Scherm HandleidingenZien
+Ar SS ZwevendMenu
+Ar FC Scherm DocumentToevoegen
+Ar FC Scherm DocumentBewerken
+Ar LO Scherm DocumentenVerwijderen
+Ar FC Scherm DossierToevoegen
+Ar FC Scherm ReeksToevoegen
+Ar FC Scherm DossierBijwerken
+Ar FC Scherm ReeksBijwerken
+B  FS Scherm KringlidToevoegen
+B  FS Scherm KringlidBewerken
+B  LO Scherm KringlidVerwijderen
+B  FS RelatieToevoegen
+B  FS Scherm RelatieBewerken
+B  LO Scherm RelatieVerwijderen
+B  FS Scherm OnderwerpToevoegen
+B  FS Scherm OnderwerpBewerken
+B  LO Scherm OntwerpVerwijderen
+B  FS Scherm DecorlijstItemToevoegen
+B  LO Scherm LogInzien
+Af FS Scherm DecorlijstItemToevoegen
+Af FC Scherm Afmelden
+
+
+- Creation date: 2016-04-09 08:42:58
