@@ -2,20 +2,19 @@
 'config' bevat alle parameters die nodig zijn voor een of meer 'archie' modules.
 """
 
-from typing import Optional
+import sqlite3
+from dataclasses import dataclass
+from pathlib import Path
 
 import yaml
-from pathlib import Path
-from dataclasses import dataclass
-import sqlite3
 
-CONFIG_ARCHIE = Path(__file__).parent / "config_archie.yaml"
+CONFIG_ARCHIE = Path(__file__).resolve().parent.parent / "config" / "archie.yaml"
 
 
 @dataclass
 class Database:
     pad: Path
-    conn: Optional[sqlite3.Connection] = None
+    conn: sqlite3.Connection | None = None
 
     def connect(self):
         if self.conn is None:

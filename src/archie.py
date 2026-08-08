@@ -6,11 +6,11 @@ Het bestaat uirt een register, een database, en een magazijn, eenbestands direct
 import logging
 
 # eigen functies
-from progs import adocn
-from progs.context.context import Context
-from progs.eenmalig import imdocn
-from progs.services.setup_logging_archie import setup_logging
-from progs.configs import config_archie as cfg
+from src import config as cfg
+from src.context import Context
+from src.services.aanvullen import lezen_mails
+from src.services.omzetten import importeren_archief
+from src.setup_logging import setup_logging
 
 
 def build_context():
@@ -27,7 +27,7 @@ def main():
     logging.getLogger(__name__).info("Gestart")
 
     context = build_context()
-
+    
     # root = tk.Tk()
     # root.title(cfg.titel_archie_scherm)
     # root.geometry(cfg.grootte_archie_scherm)
@@ -42,8 +42,8 @@ def main():
         cfg.BACKUPS,
     )
 
-    adocn.run()
-    imdocn.run()
+lezen_mails.run()
+importeren_archief.run()
 
     # root.mainloop()
 

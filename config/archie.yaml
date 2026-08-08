@@ -1,0 +1,55 @@
+
+doelmap: Z:\magazijn\voorportaal
+csvbestand_stap1: "kenmerken_bestanden_stap1.csv"
+csvbestand_stap2: "kenmerken_bestanden_stap2.csv"
+archiefmappen: "N:"
+
+csv_container:
+  -    # bestand_kenmerken
+    - ""
+    - ""
+
+  -    # email_kenmerken
+    - ""
+    - ""
+    - ""
+    - ""
+
+  -    # archief_kenmerken
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+
+
+logging:
+  level: INFO
+  logbestand: logs/archielog.log
+  format: '%(asctime)s [%(levelname)s] %(name)s - %(message)s'
+  max_bytes: 1048576
+  backups: 5
+
+toestaan:
+- .pdf
+- .docx
+- .doc
+
+inboxen:
+- Postvak IN
+- Archiveren
+
+
+#xxxxxxxxARCHIVEER
+kenmerken:
+- Naam
+- Datum
+- Bedrag
+- Organisatie
+- Opmerking
+
+#Verander die lijst naar wat jij nodig hebt. Een veld met de naam "Opmerking", "Notities" of "Beschrijving" krijgt automatisch een groter tekstvak.
+
+
+
+
