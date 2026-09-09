@@ -1,11 +1,11 @@
 """Deze modules verzorg de database services voor de foto modules."""
 
-import sqlite3
 import logging
+import sqlite3
 from contextlib import contextmanager
 
 # eigen uncties
-from progs.context.context import Context
+from src.context import Context
 
 logger = logging.getLogger(__name__)
 

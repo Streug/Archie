@@ -3,13 +3,17 @@
 Het bestaat uirt een register, een database, en een magazijn, eenbestands directorie.
 """
 
-from dataclasses import dataclass, astuple
+import sqlite3
+from dataclasses import astuple, dataclass
+from pathlib import Path
 
 
 @dataclass
 class CsvRecord:
     bestandsnaam: str = ""
-    bestandspad: str = ""
+    bestandsmappen: str = ""
+    bestand_overslaan: bool = False  # bestandsregel niet verwerken
+    email_id: str = ""
     onderwerp: str = ""
     afzender: str = ""
     ontvangstdatum: str = ""
@@ -22,3 +26,15 @@ class CsvRecord:
 
     def as_csv(self) -> str:
         return ",".join(map(str, astuple(self)))
+
+
+@dataclass
+class Database:
+    pad: Path
+    conn: sqlite3.Connection | None = None
+
+    def connect(self):
+        if self.conn is None:
+            self.conn = sqlite3.connect(self.pad)
+            self.conn.row_factory = sqlite3.Row
+        return self.conn

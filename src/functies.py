@@ -37,10 +37,10 @@ def is_uniek():
     return wentel
 
 
-def bereken_hash(flpth):
-    """Functie om de bestnds hash volgens SHA-256 te bereken"""
+def bereken_hash(flp):
+    """Functie om de bestands hash volgens SHA-256 te bereken"""
     sha256 = hashlib.sha256()
-    with flpth.open("rb") as f:
+    with flp.open("rb") as f:
         for chunk in iter(lambda: f.read(8192), b""):
             sha256.update(chunk)
     return sha256.hexdigest()

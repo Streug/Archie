@@ -1,10 +1,11 @@
 
-doelmap: Z:\magazijn\voorportaal
-csvbestand_stap1: "kenmerken_bestanden_stap1.csv"
-csvbestand_stap2: "kenmerken_bestanden_stap2.csv"
-archiefmappen: "N:"
-
-csv_container:
+voorportaal_pad: Z:\magazijn\voorportaal
+magazijn_pad: Z:\magazijn
+csvbestandsnaam1: "kenmerken_bestandensnaam1.csv"
+csvbestandsnaam2: "kenmerken_bestandensnaam2.csv"
+archiefmappen: "N:" # Begin van het (oude) mappen archief
+#archiefmappen: N:\programmatuur # test
+csv_container:            # definitie CSV-record
   -    # bestand_kenmerken
     - ""
     - ""
@@ -25,15 +26,27 @@ csv_container:
 
 logging:
   level: INFO
-  logbestand: logs/archielog.log
+  logbestand: Z:\magazijn\voorportaal\archielog.log
   format: '%(asctime)s [%(levelname)s] %(name)s - %(message)s'
   max_bytes: 1048576
   backups: 5
 
-toestaan:
-- .pdf
+documenten:
+- .csv
 - .docx
 - .doc
+- .eml
+- .html
+- .json
+- .mht
+- .msg
+- .pdf
+- .odt
+- .txt
+- .zip
+- .xlr
+- xlsx
+
 
 inboxen:
 - Postvak IN

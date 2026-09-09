@@ -8,8 +8,7 @@ import logging
 # eigen functies
 from src import config as cfg
 from src.context import Context
-from src.services.aanvullen import lezen_mails
-from src.services.omzetten import importeren_archief
+from src.services.lezen import lezen_mails, lezen_mappen, wegschrijven_kenmerken
 from src.setup_logging import setup_logging
 
 
@@ -23,18 +22,19 @@ def build_context():
     return ctx
 
 
-def main():
-    logging.getLogger(__name__).info("Gestart")
+def archie():
 
-    context = build_context()
-    
+    # context = build_context()
+
     # root = tk.Tk()
     # root.title(cfg.titel_archie_scherm)
     # root.geometry(cfg.grootte_archie_scherm)
 
     # context.gui_root = root
 
-    setup_logging(
+    # context = build_context()
+
+    logger = setup_logging(
         cfg.LEVEL,
         cfg.LOGBESTAND,
         cfg.FORMAT,
@@ -42,11 +42,15 @@ def main():
         cfg.BACKUPS,
     )
 
-lezen_mails.run()
-importeren_archief.run()
+    logger.info("Gestart")
 
-    # root.mainloop()
+    logger = logging.getLogger(__name__)
+
+    # lezen_mails.run()
+    # lezen_mappen.run()
+    wegschrijven_kenmerken.run()
+
+    logger.info("Geeindigd")
 
 
-if __name__ == "__main__":
-    main()
+archie()

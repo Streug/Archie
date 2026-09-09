@@ -2,25 +2,11 @@
 'config' bevat alle parameters die nodig zijn voor een of meer 'archie' modules.
 """
 
-import sqlite3
-from dataclasses import dataclass
 from pathlib import Path
 
 import yaml
 
 CONFIG_ARCHIE = Path(__file__).resolve().parent.parent / "config" / "archie.yaml"
-
-
-@dataclass
-class Database:
-    pad: Path
-    conn: sqlite3.Connection | None = None
-
-    def connect(self):
-        if self.conn is None:
-            self.conn = sqlite3.connect(self.pad)
-            self.conn.row_factory = sqlite3.Row
-        return self.conn
 
 
 # Get the parameter data for all foto modules
@@ -48,13 +34,13 @@ archief_kenmerken = csv_container[2]
 # database = Database(pad=Path(yml["database_file"]))
 
 
-TOEGESTAAN = yml["toestaan"]
-INBOXEN = yml["inboxen"]
+DOCUMENTEN = yml["documenten"]  # Lijst toegestande documenten
+INBOXEN = yml["inboxen"]  # Lijst folders die gelezen worden
 
-CSVBESTAND_STAP1 = Path(yml["csvbestand_stap1"])
-CSVBESTAND_STAP2 = Path(yml["csvbestand_stap2"])
-DOELMAP = Path(yml["doelmap"])
-DOELMAP.mkdir(parents=True, exist_ok=True)
+CSVBESTANDSNAAM1 = Path(yml["csvbestandsnaam1"])
+CSVBESTANDSNAAM2 = Path(yml["csvbestandsnaam2"])
+VOORPORTAAL_MAP = Path(yml["voorportaal_pad"])
+MAGZIJN_MAP = Path(yml["magazijn_pad"])
 ARCHIEFMAPPEN = Path(yml["archiefmappen"])
 
 

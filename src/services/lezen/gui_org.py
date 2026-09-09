@@ -1,8 +1,8 @@
 """
 Dit programma smaakt het mogelijk om snel kenmerken toe te voegen aan een document,
-bij het verwerken van grote hoeveelheden documenten. Documenten staan in het voorportaal van
-het Archie archief.  De resultaten worden opgeslagen in een CSV bestand, dat later kan
-worden ingelezen in Archie.
+bij het archiveren van grote hoeveelheden documenten; het massa archiveren. Documenten
+staan in het Magazijn/Voorportaal van het Archie archief.  De resultaten worden
+opgeslagen in een CSV bestand, dat later kan worden ingelezen in Archie.
 """
 
 # Imports
@@ -17,16 +17,13 @@ import fitz  # PyMuPDF
 from PIL import Image, ImageTk
 
 # eigen functies
-from progs.configs import config_archie as cfg
+from src import config as cfg
 
 
 def run():
-    logging.FileHandler(
-        "archie.log", encoding="utf-8"
-    )  # voorkomt dat er een logger foutmelding
     logger = logging.getLogger(__name__)
 
-    logger.info("Start importeren")
+    logger.info("Gestart")
 
     """
     PDF Reviewer Tool
@@ -389,10 +386,9 @@ def run():
         # ── Bestanden laden ────────────────────────
 
         def _open_folder(self):
-            folder = filedialog.askdirectory(title="Kies een map met PDF's")
-            if folder:
-                files = sorted(Path(folder).glob("*.pdf"))
-                self._load_file_list([str(f) for f in files])
+            folder = cfg.BRONMAP
+            files = sorted(Path(folder).glob("*.pdf"))
+            self._load_file_list([str(f) for f in files])
 
         def _open_files(self):
             files = filedialog.askopenfilenames(
@@ -410,9 +406,9 @@ def run():
 
         def _load_existing_csv(self):
             """Laad bestaande resultaten als het CSV-bestand al bestaat."""
-            if os.path.exists(cfg.OUTPUT_CSV):
+            if os.path.exists(cfg.CSVBESTAND_STAP2):
                 try:
-                    with open(OUTPUT_CSV, newline="", encoding="utf-8") as f:
+                    with open(cfg.CSVBESTAND_STAP2, newline="", encoding="utf-8") as f:
                         reader = csv.DictReader(f)
                         for row in reader:
                             self.all_results.append(dict(row))
@@ -574,7 +570,7 @@ def run():
                 messagebox.showinfo(
                     "Klaar! 🎉",
                     f"Alle {len(self.pdf_files)} PDF's verwerkt.\n"
-                    f"Resultaten staan in: {OUTPUT_CSV}",
+                    f"Resultaten staan in: {cfg.CSVBESTAND_STAP2}",
                 )
 
         def _skip(self):
@@ -591,12 +587,13 @@ def run():
         def _save_csv(self):
             self._write_csv()
             messagebox.showinfo(
-                "Opgeslagen", f"CSV opgeslagen als:\n{os.path.abspath(OUTPUT_CSV)}"
+                "Opgeslagen",
+                f"CSV opgeslagen als:\n{os.path.abspath(cfg.CSVBESTAND_STAP2)}",
             )
 
         def _write_csv(self):
             fieldnames = ["bestand"] + cfg.KENMERKEN
-            with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
+            with open(cfg.CSVBESTAND_STAP2, "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
                 writer.writeheader()
                 writer.writerows(self.all_results)

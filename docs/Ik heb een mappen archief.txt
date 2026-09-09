@@ -1,0 +1,659 @@
+Ik heb een mappen archief. Daarin staan alle belangrijke documenten van ons huishouden.
+(Voor de structuur van het mappen archief, de directories en subdirectories, verwijs ik naar MAPPENSTRUCTUUR.)
+Van elk document in de archiefmappen staat een 'mappen' regel in de RESULTAATTABEL
+
+Ik heb ook Outlook berichten verzameld die als bijlage een document bevatten. Ik heb daarvoor al mijn emails met bijlagen gelezen.
+Ik heb nu ook 'mail' regels in de tabel met wat ik vond in de emails. Op een regel kan daarom een email-id staan met een bestandsnaam en email kenmerken.
+Van elk document in de archiefmappen staat een 'mail' regel in de RESULTAATTABEL
+
+
+Vwb de mappen regels:
+A. Er zijn 3 situaties (ik noem ze Geval, Bezigheid en Kestie) mogelijk voor het archiveren van een document. In in bijgaande table CLASSIFICATIE geef ik aan welke kenmerken gelden voor een situatie.
+Geval: document van / naar relatie
+Bezigheid: document over een bepaald onderwerp
+Kwestie: een document van / naar een Kringlidtypering.
+
+CLASSIFCATIE
+Geval			Bezigheid		Kwestie	
+Kringlidnaam (1)	Kringlidnaam (1)	Kringlidnaam	
+Kringlidtypering (1)	Kringlidtypering (1)	Kringlidtypering (1)	
+Relatienaam		Kringlidnaam (2)	
+Relatietypering		Kringlidtypering (2)	
+Onderwerpnaam	        Onderwerpnaam	        Onderwerpnaam	
+Documenttypering	Documenttypering	Documenttypering	
+Activiteit	        Activiteit	        Activiteit	
+Ref			
+  1	Is: Stempelnaam van de Ouder		
+  2	Als subject		
+
+
+
+
+B. Kijk ook naar de bestandsnaam, misschien zijn daar ook kenmerken uit te halen.
+C. Het 'Onderwerp' kan de laatste (meeste rechts) mapnaam zijn;  maar dat pas in laatste instantie
+
+Vwb mail regels
+A. Kijk ook naar Fw waarmee een email onderwerp begint en probeer de oorspronkelijke afzender te achterhalen.
+
+B. Ook uit het onderwerp is misschien iets te achterhalen over de inhoud van het document.
+
+C. Kijk ook naar de bestandsnaam, misschien zijn daar ook kenmerken uit te halen.
+
+
+Ik wil graag zoveel mogelijk aan kenmerken te weten komen over een document. De Zoals gezegd, de bron daarvoor kan bv de bestandsnaam zijn
+; er kan bv in staan 'factuur' of 'brief ' of bv moeder, etc.
+
+Graag een bestand in in tabelvorm met een overzicht van de bestanden en per bestand wat er aan zinnigs (kenmerken) gezegd wordt over de inhoud (van het document).
+(Graag de RESULTAATTABEL per regel aanvullen.)
+
+Deze regels uit de RESULTAATTABEL (met name de kenmerken) ga gebruiken voor het omzetten van de documenten naar het Archie archief. Dus kenmerken om een document te kunnen opslaan en terugvinden in Archie.
+
+
+
+
+Voor de analyse zijn, in tabelvorm, de volgende lijsten beschikbaar waaruit de kenmerken kunnen worden gehaald om een document in Archie te kunen opslaan: Onderwerp, Relatietypering, Kringlidtypering en zonodig documenttypering
+
+
+
+Graag de omzetting, in tabelvorm, naar de volgende lijsten waaruit de kenmerken kunnen worden gehaald om een document in Archie te kunen opslaan: Onderwerp, Relatietypering, Kringlidtypering zonodig documenttypering.
+
+
+
+RESULTAATTABEL
+De RESULTAATABEL is bedstandsbijlage toegevoegd aan dit verzoek
+
+
+
+MAPPENSRTUCTUUR			
+ Map1 	 Map2 	 Map3 	Map4
+abonnement	abonnementenland		
+abonnement	Argweb		
+abonnement	krant		
+administratie			
+administratie	amro-afschriften		
+administratie	giro-afschriften		
+administratie	rapporten betaalde belastingen 2008		
+administratie	rapporten huishoudelijke uitgaven 2008		
+administratie	rapporten overige uitgaven 2008		
+administratie	rapporten vaste lasten 208Nieuwe map (3)		
+administratie	sns afschriften		
+apparatuur	computer	HP 250 G6	
+apparatuur	computer	HP Elitebook 8540w	
+apparatuur	computer	Samsung Galaxy Book3 360	
+apparatuur	computer	TulipDS90	
+apparatuur	computer	VAIO	
+apparatuur	computer	Vostro1000	
+apparatuur	Naaimachine		
+apparatuur	netwerk	FritzBox 7390	
+apparatuur	netwerk	Fritzbox 7581	
+apparatuur	netwerk	Fritzbox 7590	
+apparatuur	netwerk	FrtizBox 7340	
+apparatuur	printer	Officejet 7780	
+apparatuur	printer	Officejet9120	
+apparatuur	telefoon		
+apparatuur	telefoon	Galaxy	
+apparatuur	telefoon	i-Phone	
+apparatuur	telefoon	Lenovo	
+apparatuur	telefoon	Lumia	
+apparatuur	telefoon	OPPO A52	
+apparatuur	verwarming		
+auto			
+auto	ANWB		
+auto	ANWB	Declaraties okt 2025	
+auto	Auto ongeluk		
+auto	Auto ongeluk	Juristiek	
+auto	autozaak		
+auto	garage		
+auto	garage	Kraaijvanger	
+auto	garage	Rietman	
+auto	parkeerplekhouder		
+bank	Degiro		
+bank	ICS		
+bank	ING		
+bank	Robeco		
+bank	SNS		
+bank	SNS	banksparen	
+bank	SNS	hypotheeknemer E66	
+bank	SNS	hypotheeknemer LvM94	
+bank	SNS	Hypotheeknemer S68	
+bank	SNS	lijfrentenieren	
+belasting			
+belasting	inkomsten	2010	
+belasting	inkomsten	2012	aangifte
+belasting	inkomsten	2013	
+belasting	inkomsten	2013	aangifte
+belasting	inkomsten	2014	
+belasting	inkomsten	2014	aangifte
+belasting	inkomsten	2015	
+belasting	inkomsten	2015	aangifte
+belasting	inkomsten	2016	
+belasting	inkomsten	2016	aangifte
+belasting	inkomsten	2017	
+belasting	inkomsten	2017	Aangifte
+belasting	inkomsten	2018	
+belasting	inkomsten	2018	aangifte
+belasting	inkomsten	2019	
+belasting	inkomsten	2020	
+belasting	inkomsten	2021	
+belasting	inkomsten	2021	aangifte
+belasting	inkomsten	2022	
+belasting	inkomsten	2023	
+belasting	inkomsten	2024	
+belasting	inkomsten	2025	
+belasting	wegen		
+belasting	zorg		
+belasting	zorg	bijdrage	
+belasting	zorg	toeslag	
+buurt			
+camper			
+dienstverlener	advocaat	Brandmeester	
+dienstverlener	Makelaar		
+dienstverlener	notaris		
+dienstverlener	verzekering	Allianz	
+dienstverlener	verzekering	ANWB-verzekeringen	
+dienstverlener	verzekering	AoN vroeger Kröller	
+dienstverlener	verzekering	Aveco	
+dienstverlener	verzekering	Centraal Beheer	
+dienstverlener	verzekering	FBTO	
+dienstverlener	verzekering	NN	
+dienstverlener	verzekering	Ohra	
+dienstverlener	verzekering	REAAL	
+dienstverlener	verzekering	Unive Oost	
+dienstverlener	verzekering	Zilveren Kruis	
+diverse			
+ebm			
+ebm	ebm-administratie		
+ebm	ebm-administratie	omzetbelasting oktober 2008	
+ebm	TMC		
+ebm	TMC	TL	TM Handboeken
+familie			
+familie	bruurs		
+familie	erfenis		
+familie	moeder G		
+familie	moeder S		
+gezin			
+gezin	Geert en Dalis	Dalis	
+gezin	Geert en Dalis	Geert	
+gezin	Geert en Dalis	Geert	scheiding
+gezin	Joos en Laurence		
+gezin	Riet		
+gezin	Riet	NIK	
+gezin	Riet	Rode kruis	
+gezin	Theo		
+gezin	Theo	diplomas	
+gezin	Theo	help	
+gezin	Theo	italiaans	
+gezin	Theo	leestafel	
+gezin	Theo	leestafel	QM
+gezin	Theo	literatuur	
+gezin	Theo	medisch dossier	
+gezin	Theo	NIK	
+gezin	Theo	pasfotos	
+gezin	Theo	psychisch dossier	
+gezin	Theo	psychisch dossier	BA
+gezin	Theo	psychisch dossier	Marijke Bolhaar Mindler
+gezin	Theo	psychisch dossier	Martin Meijer Mind2Open
+gezin	Theo	rijbewijs	
+gezin	Theo	schrijftafel	
+gezin	Theo	solicitaties	
+gezin	Theo	tekeningen	
+gezin	Thijs		
+huis	D90		
+huis	E66		
+huis	E66	boiler	
+huis	E66	buren	
+huis	E66	momumentenwacht	
+huis	E66	tuin	
+huis	E66	tuin	beregening
+huis	E66	verkoop	
+huis	E66	verkoop	makelaar
+huis	E66	verkoop	officiele documenten
+huis	E66	zonnepanelen	
+huis	L94		
+huis	L94	aankoop	
+huis	L94	makelaar	WoonCompany
+huis	L94	verhuur Jeroen Selier	
+huis	L94	verhuur Katarina Izarikova	
+huis	L94	verhuur Mauricio Pizarro Ortega	
+huis	L94	verkoop	
+huis	L94	VvE de Hofstadt	
+huis	L94	VvE de Hofstadt	ALV 17nov2015
+huis	L94	VvE de Hofstadt	ALV 28jun2016
+huis	L94	VvE de Hofstadt	ALV 3 mei 2017
+huis	L94	VvE de Hofstadt	ALV23nov2016
+huis	L94	VvE de Hofstadt	declaraties
+huis	L94	VvE de Hofstadt	kosten
+huis	L94	VvE de Hofstadt	Splitsingsakte2016
+huis	L94	VvE de Hofstadt	Zoutmanstraat 98
+huis	S68		
+huis	S68	dak	
+huis	S68	makelaar	
+huis	S68	notaris	
+huis	S68	project subsidie energiebezuiniging	
+huis	S68	tuin	
+huis	verhuizer		
+idiële instelling			
+idiële instelling	Natuurmonumenten		
+kursus	HTML5		
+kursus	IDE PHP		
+kursus	Java		
+kursus	Java	javase_progenv	index_files
+kursus	OO		
+kursus	Python		
+kursus	Python	Python 3p11 docs-pdf	
+kursus	website concepten		
+leverancier			
+leverancier	bed		
+leverancier	bouw		
+leverancier	dakdekker		
+leverancier	energie		
+leverancier	energie	BudgetEnergie	
+leverancier	energie	ENECO	
+leverancier	energie	Enexis	
+leverancier	energie	Engie	
+leverancier	energie	FENOR	
+leverancier	energie	Nuon	
+leverancier	energie	Vattenfall	
+leverancier	fiets		
+leverancier	gehuurd		
+leverancier	Henk Pen		
+leverancier	installatiebedrijf	Borggreve	
+leverancier	installatiebedrijf	Breukers	
+leverancier	installatiebedrijf	Frank Wolters	
+leverancier	installatiebedrijf	Keizers	
+leverancier	installatiebedrijf	Lammerink	
+leverancier	installatiebedrijf	Michorius	
+leverancier	installatiebedrijf	Serbo	
+leverancier	installatiebedrijf	TEG	
+leverancier	installatiebedrijf	Zanten	
+leverancier	internet	Argeweb	
+leverancier	internet	Hostnet	
+leverancier	internet	KPN	
+leverancier	internet	KPN Interned Services	
+leverancier	internet	TELE2	
+leverancier	internet	t-mobile	
+leverancier	internet	XS4ALL	
+leverancier	internet	ZIGGO	
+leverancier	programmatuur	Davilex	
+leverancier	programmatuur	Panda	
+leverancier	schilder	S68	
+leverancier	schoonsteenveger		
+leverancier	spullen	123inkt	
+leverancier	spullen	breqq	
+leverancier	spullen	LCS	
+leverancier	tuin		
+leverancier	water	Vitens	
+Lidmaatschap	Vereniging Eigenhuis		
+Lidmaatschap	VPRO		
+loterij			
+ontspanning	sport		
+ontspanning	sport	club	
+ontspanning	vakantie		
+overheid	CAK		
+overheid	Digid		
+overheid	donorregister		
+overheid	gemeente	Den Haag	dienst Belastingen
+overheid	gemeente	Haaksbergen	
+overheid	gemeente	Haaksbergen	GBT
+overheid	justitie		
+overheid	justitie	boetes	
+overheid	justitie	om	
+overheid	justitie	politie	
+overheid	kadaster		
+overheid	min VWS		
+overheid	Ondernemend Nederland		
+overheid	RDW		
+overheid	SVB		
+overheid	Warmtefonds		
+overheid	waterschap	GBLT	
+overheid	waterschap	RBG	
+pensioen			
+pensioen	ABP		
+pensioen	Centraal Beheer		
+pensioen	NN vroeger Delta LLoyd		
+pensioen	PfZW		
+programmatuur	gereedschap		
+programmatuur	gereedschap	Office 2016 Licentie	
+programmatuur	gereedschap	Panda	
+programmatuur	programeren		
+programmatuur	programeren	Boeken	
+programmatuur	programeren	casus DH	achterkant
+programmatuur	programeren	casus DH	ontwikkeling
+programmatuur	programeren	casus huis DMS	
+programmatuur	programeren	casus TL	
+programmatuur	programeren	DevOps	
+programmatuur	programeren	Github	
+programmatuur	programeren	JavaScript	
+programmatuur	programeren	PHP	
+programmatuur	programeren	UML	
+programmatuur	programeren	Windows 10	
+vervoer	BlaBlaCar		
+vervoer	Flixbus		
+vervoer	openbaarvervoerder		
+voorziening	afval		
+voorziening	bibliotheek		
+voorziening	bloedbank		
+voorziening	incassobureau		
+voorziening	museum		
+vriend	Jeroen en Lambert		
+vriend	Kees		
+werk	CNV		
+werk	Vendingland		
+winkel	boekhandel		
+winkel	bouwmarkt		
+winkel	elktrozaak		
+winkel	fietsenmaker		
+winkel	kleding en schoenen		
+winkel	naaimachinehandel		
+winkel	opticien		
+winkel	warenhuis	Bijenkorf	
+winkel	woninginrichter		
+zorg	apotheker		
+zorg	Bevolkingsonderzoek Oost		
+zorg	dietist		
+zorg	fysiotherapeut		
+zorg	GGD Twente		
+zorg	huisarts	Meerendonk	
+zorg	huisarts	Meijer	
+zorg	Medireva		
+zorg	mondhygieniste		
+zorg	oogarts	Oogcentrum	
+zorg	podoloog		
+zorg	psychotherapeut		
+zorg	tandarts		
+zorg	Urimon		
+zorg	ziekenhuis		
+
+
+
+
+ONDERWERP
+Onderwerpnaam	DekkingInOnderwerp		Activiteit
+aangifte	Belastingen		Administreren
+aanslag	Belastingen		Administreren
+aansprakelijkheidsverzekering	Verzekeringen		Administreren
+abonnement	Huishouden		Ontspannen
+administratie	Huishouden		Administreren
+afwasautomaat	Apparaten		Onderhouden
+afzuigkap	Apparaten		Onderhouden
+apparatuur	Apparaten		Onderhouden
+arbeidsovereenkomst	Overeenkomsten en akten		Administreren
+auto	Roerende goederen		Onderhouden
+fiets	Roerende goederen		Onderhouden
+brommer/scooter	Roerende goederen		Onderhouden
+autoverzekering	Verzekeringen		Administreren
+bed	Meubilair		Onderhouden
+beeld	Roerende goederen		Onderhouden
+belasting	Belastingen		Administreren
+beleggen	Bezit & Schuld		Administreren
+bewijsstuk	Documentern		Administreren
+correspondentie	Documentern		Administreren
+bezittingen	Bezit & Schuld		Administreren
+schulden	Bezit & Schuld		Administreren
+boeken	Vrije tijd		Ontspannen
+boiler	Apparaten		Onderhouden
+bril	Roerende goederen		Onderhouden
+buren	Relaties		Verbinden
+camper	Roerende goederen		Onderhouden
+casus DH	Vrije tijd		Rest
+casus huis DMS	Vrije tijd		Rest
+codicil	Overeenkomsten en akten		Administreren
+computer	Apparaten		Onderhouden
+D90	Woning		Onderhouden
+dak	Woning		Onderhouden
+DevOps	Informatica		Ontspannen
+droger	Apparaten		Onderhouden
+E66	Woning		Onderhouden
+ebm	Eigen bedrijf		Rest
+ebm-administratie	Eigen bedrijf		Rest
+energiecontract	Huishouden		Administreren
+energierekening	Huishouden		Administreren
+familie	Relaties		Verbinden
+financiële afspraak (in het gezin)	Huishouden		Administreren
+foto	Documentern		Administreren
+garage	Woning		Onderhouden
+garantiebewijs	Overeenkomst en Akten		Administreren
+gemeentebelasting	Huishouden		Administreren
+gereedschap	Roerende goederen		Onderhouden
+gezin	Relaties		Verbinden
+HTML5	Informatica		Ontspannen
+huis	Woning		Onderhouden
+huurcontract	Overeenkomsten en akten		Administreren
+huwelijkse voorwaarde	Overeenkomsten en akten		Administreren
+hypotheek	Bezit & Schuld		Administreren
+hypotheekakte	Overeenkomsten en akten		Administreren
+IDE PHP	Informatica		Ontspannen
+inventarisatie van bezittingen en schulden	Bezit & Schuld		Administreren
+jaaropgave belasting	Belastingen		Administreren
+jaaropgave pensioen	Werk & Pensioen		Administreren
+jaaroverzicht van inkomsten en uitgaven	Huishouden		Administreren
+jaloezie	Woning		Onderhouden
+Java	Informatica		Ontspannen
+JavaScript	Informatica		Ontspannen
+kast	Meubilair		Onderhouden
+kast-in-kast	Meubilair		Onderhouden
+Kennis	Relaties		Verbinden
+kookplaat	Apparaten		Onderhouden
+kosten	Huishouden		Administreren
+kraan	Woning		Onderhouden
+kursus	Vrije tijd		Ontspannen
+L94	Woning		Onderhouden
+lamp	Woning		Onderhouden
+lening	Bezit & Schuld		Administreren
+loonstrook	Werk & Pensioen		Administreren
+netwerk	Informatica		Onderhouden
+ontspanning	Vrije tijd		Ontspannen
+OO	Informatica		Ontspannen
+oven	Apparaten		Onderhouden
+overeenkomst	Overeenkomsten en akten		Administreren
+overige documenten	Documentern		Administreren
+PHP	Informatica		Ontspannen
+plant	Roerende goederen		Onderhouden
+polisblad en informatie	Verzekeringen		Administreren
+printer	Apparaten		Onderhouden
+programmatuur	Informatica		Onderhouden
+programmeren	Informatica		Ontspannen
+Python	Informatica		Ontspannen
+reglement	Overeenkomsten en akten		Administreren
+reisverzekering	Verzekeringen		Administreren
+S68	Woning		Onderhouden
+samenlevingscontract	Overeenkomsten en akten		Administreren
+schilderij	Roerende goederen		Onderhouden
+spaardoel	Huishouden		Administreren
+sparen	Bezit & Schuld		Administreren
+splitsingsakte	Overeenkomsten en akten		Administreren
+sport	Vrije tijd		Ontspannen
+stoel	Meubilair		Onderhouden
+tafel	Meubilair		Onderhouden
+telefoon	Apparaten		Onderhouden
+testament	Overeenkomsten en akten		Administreren
+tuin	Woning		Onderhouden
+UML	Informatica		Ontspannen
+vakantie	Vrije tijd		Ontspannen
+verhuur	Overig		Rest
+verklaring	Overeenkomsten en akten		Administreren
+vermogensoverzicht	Bezit & Schuld		Administreren
+vervoer	Huishouden		Redderen
+verzekering	Verzekeringen		Administreren
+vloer	Woning		Onderhouden
+vriend	Relaties		Verbinden
+VvE de Hofstadt	VVE		Rest
+wasmachine	Apparaten		Onderhouden
+water	Huishouden		Redderen
+Website concenpten	Informatica		Ontspannen
+Windows	Informatica		Ontspannen
+woonverzekering	Verzekeringen		Administreren
+ziektekostenverzekering	Verzekeringen		Administreren
+ziektekosten	Huishouden		Administreren
+zitbank	Meubilair		Onderhouden
+
+
+RELATIETYPERING
+Relatietypering	Toelichting			Relatietypering	Organisatiesoort
+Overheid	Gemeente, rijksoverheid, Belastingdienst, Kadaster, justitie			Overheid	Gemeente
+Zorgverlener	Huisarts, tandarts, fysiotherapeut, apotheek, ziekenhuis			Overheid	Belastingdienst
+Verzekeraar	Zorg-, woning-, auto-, reisverzekering enz.			Overheid	Kadaster
+Financiële instelling	Bank, pensioenfonds, hypotheekverstrekker, belegger			Overheid	Waterschap
+Leverancier	Energie, water, internet, goederen en diensten			Overheid	Justitie
+Winkel	Bakker, drogist, boekhandel, warenhuis, opticien			Zorgverlener	Huisarts
+Dienstverlener	Adviseur, makelaar, notaris, deurwaarder enz.			Zorgverlener	Tandarts
+Installateur	Elektro, zonnepanelen, isolatie, technische installaties			Zorgverlener	Fysiotherapeut
+Onderhoudsbedrijf	Schilder, schoorsteenveger, onderhoudsbedrijf			Zorgverlener	Apotheker
+Autobedrijf	Garage, autodealer, autobeveiliging, wegenwacht			Zorgverlener	Oogarts
+Horecabedrijf	Restaurant, hotel, café			Zorgverlener	Mondhygiënist
+Werkgever	Werkgever of voormalige werkgever			Zorgverlener	Pedicure
+Onderwijsinstelling	School, universiteit, cursusinstituut			Zorgverlener	Ziekenhuis
+Mediabedrijf	Omroep, krant, nieuwsorganisatie			Verzekeraar	Zorgverzekeraar
+Uitgever	Boek-, tijdschrift- of andere uitgever			Verzekeraar	Schadeverzekeraar
+Voorziening	Bibliotheek, afvalvoorziening enz.			Financiële instelling	Bank
+Vereniging	Sportvereniging, hobbyvereniging enz.			Financiële instelling	Pensioenfonds
+Belangenorganisatie	Vakbond, consumentenorganisatie enz.			Financiële instelling	Hypotheekverstrekker
+Goede doelen	Stichting of organisatie waaraan je doneert			Leverancier	Energiebedrijf
+Particulier	Familie, vrienden, buren, andere personen			Leverancier	Waterbedrijf
+Verhuurder	Verhuurder van woning, garage, apparatuur enz.			Leverancier	Internetprovider
+Verhuurbedrijf	Bedrijf dat goederen of voorzieningen verhuurt			Leverancier	Software
+Rechtspersoon	Alleen gebruiken als de relatie niet specifieker kan worden getypeerd			Winkel	Bakker
+Overig	Uitzondering wanneer geen passende typering bestaat			Winkel	Drogist
+Winkel	Boekhandel
+Winkel	Fietsenwinkel
+Winkel	Groenteboer
+Winkel	Kaasboer
+Winkel	Kledingwinkel
+Winkel	Opticien
+Winkel	Warenhuis
+Dienstverlener	Adviesbureau
+Dienstverlener	Gerechtsdeurwaarder
+Dienstverlener	Makelaar
+Dienstverlener	Notaris
+Installateur	Elektrotechnisch installatiebedrijf
+Installateur	Isolatiebedrijf
+Installateur	Zonnepaneleninstallateur
+Onderhoudsbedrijf	Schilderbedrijf
+Onderhoudsbedrijf	Schoorsteenveger
+Autobedrijf	Garagebedrijf
+Autobedrijf	Autodealer
+Autobedrijf	Wegenwacht/pechhulp
+Horecabedrijf	Restaurant
+Horecabedrijf	Hotel
+Mediabedrijf	Omroep
+Uitgever	Krantenuitgever
+Uitgever	Boekuitgever
+Uitgever	Tijdschriftuitgever
+Voorziening	Bibliotheek
+Voorziening	Afvalvoorziening
+Belangenorganisatie	Vakbond
+Goede doelen	Goede-doelenorganisatie
+Particulier	Familie
+Particulier	Vriend
+Particulier	Buur
+Verhuurder	Woningverhuurder
+Verhuurbedrijf	Verhuurbedrijf
+
+
+KRINGLIDTYPERING
+Naam		Dus ook …..
+buren		groep	kennissen
+buur		individu	buren	kennisen
+dochter		individu	kind	gezinslid	gezin	familie 	kennissen
+familie		groep	kenissen
+familielid		individu	familie 	kennissen
+familielid/ex		individu	familie 	kennissen
+gezin		groep	familie	kennissen
+kennis		individu	kennisen
+kennissen		groep
+moeder		individu	ouder	gezinslid	gezin	familie 	kennissen
+ouder		individu	kind	gezinslid	gezin	familie 	kennisen
+schoondochter		individu	kind	gezinslid	gezin	familie 	kennissen
+schoonzoon		individu	kind	gezinslid	gezin	familie 	kennissen
+vader		individu	ouder	gezinslid	gezin	familie 	kennissen
+vriend		individu	vrienden	kennissen
+vrienden		groep	kennissen
+zoon		individu	kind	gezinslid	gezin	familie 	kennissen
+
+
+DOCUMENTTYPERING
+Naam	Categorie
+Aangifte	Administratief / juridisch
+Aanmaning	Administratief / juridisch
+Aanmelding	Administratief / juridisch
+Aanslagbiljet	Administratief / juridisch
+Aanvraag	Administratief / juridisch
+Actielijst	Planning / werkdocument
+Afspraakbevestiging	Zorg
+Agenda	Planning / werkdocument
+Akte	Administratief / juridisch
+Bankafschrift	Financieel
+Behandelplan	Zorg
+Beschikking	Administratief / juridisch
+Besluit	Administratief / juridisch
+Betalingsbewijs	Financieel
+Betalingsregeling	Financieel
+Bevestiging	Communicatie
+Bezwaarschrift	Administratief / juridisch
+Boek	Overige
+Bouwtekening	Wonen / huishouden
+Brief	Communicatie
+Brochure	Informatie
+Catalogus	Informatie
+Certificaat	Persoonlijke documenten
+Checklist	Planning / werkdocument
+Codicil	Administratief / juridisch
+Declaratie	Financieel
+Diploma	Persoonlijke documenten
+E-mail	Communicatie
+Energielabel	Wonen / huishouden
+Factuur	Financieel
+Foto	Overige
+Garantiebewijs	Wonen / huishouden
+Geboorteakte	Persoonlijke documenten
+Handleiding	Informatie
+Huwelijksakte	Persoonlijke documenten
+Hypotheekoverzicht	Financieel
+Identificatiebewijs	Persoonlijke documenten
+Inspectierapport	Wonen / huishouden
+Jaaropgave	Financieel
+Jaaroverzicht	Financieel
+Kwitantie	Financieel
+Levenstestament	Persoonlijke documenten
+Lidmaatschapsbewijs	Persoonlijke documenten
+Loonstrook	Financieel
+Machtiging	Administratief / juridisch
+Mededeling	Communicatie
+Medicatieoverzicht	Zorg
+Medisch verslag	Zorg
+Melding	Communicatie
+Meterstand	Wonen / huishouden
+Notitie	Planning / werkdocument
+Offerte	Financieel
+Onderhoudsrapport	Wonen / huishouden
+Onderzoeksuitslag	Zorg
+Ontheffing	Administratief / juridisch
+Ontvangstbevestiging	Communicatie
+Ontwerp	Planning / werkdocument
+Overeenkomst	Administratief / juridisch
+Paspoort	Persoonlijke documenten
+Pensioenoverzicht	Financieel
+Planning	Planning / werkdocument
+Plattegrond	Wonen / huishouden
+Polis	Verzekering
+Polisblad	Verzekering
+Programma	Planning / werkdocument
+Prospectus	Informatie
+Publicatie	Informatie
+Raming	Financieel
+Rapport	Informatie
+Recept	Zorg
+Recept	Overige
+Reglement	Informatie
+Richtlijn	Informatie
+Rijbewijs	Persoonlijke documenten
+Schadeaangifte	Verzekering
+Schadebeoordeling	Verzekering
+Schademelding	Verzekering
+Schadevergoeding	Verzekering
+Taxatierapport	Wonen / huishouden
+Tekening	Overige
+Testament	Administratief / juridisch
+Tijdschrift	Overige
+Uitkeringsspecificatie	Financieel
+Uitnodiging	Communicatie
